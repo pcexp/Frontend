@@ -1,0 +1,48 @@
+.oguzhan{
+           color: red;
+           border: solid black 5px;
+           text-align: left;
+           font-family: times new roman;
+           font-size: 22px;
+        }
+        .mehmetcan{
+           color:green;
+           border: solid black 5px;
+           border-radius: 10px;
+           text-align: left;
+           font-size: 22px;
+        }
+        .gurcan{
+            background-color: lightyellow;
+            border: dashed black 2px;
+            height: 300px;
+            width: 800px;
+
+        }
+        .youtubeButton{
+            padding: 15px 32px;
+            background-color: white;
+            border-radius: 8px;
+            position: relative;
+            left: 40%;
+            transition-duration: 0.3s;
+        }
+        .youtubeButton:hover{
+            background-color: #04AA6D;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+        .car{
+            height: 200px;
+            width: 400px;
+            position: relative;
+            left: 50px;
+            top: 30px;
+            border-radius: 20px;
+        }
+
+        .carContainer{
+            background-color: slateblue;
+            height: 300px;
+            width: 1550px;
+        }
