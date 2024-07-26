@@ -9,6 +9,30 @@
     position: relative;
 }
 
+
+.navbar_icon{
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icon_1{
+    height: 45px;
+    width: 45px;
+}
+
+.icon_2{
+    height: 45px;
+    width: 90px;
+}
+
+
 .navbar_btn_group_1{
     /*background-color: green;*/
     height: 100%;
