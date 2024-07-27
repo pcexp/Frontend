@@ -27,27 +27,23 @@
     width: 45px;
 }
 
-.icon_2{
-    height: 45px;
-    width: 90px;
-}
 
 
 .navbar_btn_group_1{
     /*background-color: green;*/
     height: 100%;
-    width: 500px;
+    width: 650px;
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
-    left: 300px;
+    left: 250px;
 }
 
 .navbar_btn_group_1 button{
     height: 100%;
-    width: 90px;
+    width: 120px;
     background-color: rgb(24, 42, 77);
     color: orange;
     border-left: 1px solid orange;
@@ -91,3 +87,10 @@
     color: rgb(24, 42, 77);
     
 }
+
+
+
+
+
+
+
