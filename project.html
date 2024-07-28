@@ -1,69 +1,62 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Movie Database</title>
     <link rel="stylesheet" href="project.css">
 </head>
-
 <body>
     <div class="navbar">
-
         <div class="navbar_icon">
             <img class="icon_1" src="icons/icon1.svg" alt="Navbar Icon 1">
         </div>
-
         <div class="navbar_btn_group_1">
             <button>Movies</button>
             <button>Series</button>
             <button>Documentary</button>
             <button>Music</button>
         </div>
-
         <div class="navbar_btn_group_2">
             <button>Color Mode</button>
             <button>Logout </button>
-            
         </div>
-
-
     </div>
-
-
-
     <div class="main_container">
-        
         <div class="sidebar">
+            <img src="icons/pp.jpg" alt="Profile Photo">
             <li>
-                <a href="">Register</a>
-                <a href="">Link 2</a>
-                <a href="">Link 3</a>
-                <a href="">Link 4</a>
-
+                <button onclick="changeVisibility()">Register</button>
+                <button>Link 2</button>
+                <button>Link 3</button>
+                <button>Link 4</button>
             </li>
-
         </div>
-        
-        
         <div class="content_pane">
-            
-
+            <div class="register_page_disabled" id="id_register_page">
+                <div class="userinfo_1">
+                    <div>
+                        <input type="text" id="fname" name="fname" placeholder="First Name...">
+                    </div>
+                    <div>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name...">
+                    </div>
+                    <div class="birthday_box">
+                        <div>Date of Birth</div>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <div>
+                        <input type="email" id="mail" name="mail" placeholder="E-Mail...">
+                    </div>
+                    <div>
+                        <select>
+                            <option selected hidden>Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
     </div>
-
-
-
-
-
-
+    <script src="project.js"></script>
 </body>
-
-
-
-
-
-
 </html>
