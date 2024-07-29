@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Movie Database</title>
     <link rel="stylesheet" href="project.css">
 </head>
+
 <body>
     <div class="navbar">
         <div class="navbar_icon">
@@ -24,13 +26,33 @@
         <div class="sidebar">
             <img src="icons/pp.jpg" alt="Profile Photo">
             <li>
+                <button>Upcoming</button>
+                <button>In Theatre</button>
+                <button>Calendar</button>
                 <button onclick="changeVisibility()">Register</button>
-                <button>Link 2</button>
-                <button>Link 3</button>
-                <button>Link 4</button>
+                <button>User List</button>
+                <button>Comment List</button>
+
+                <textarea name="user_comment" id="id_user_comment" placeholder="Add comments here..."></textarea>
+
+                <button>Save</button>
             </li>
         </div>
         <div class="content_pane">
+            <div class="movies_page" id="id_movies_page">
+                <div>
+                    <img src="icons/m1.jpg" alt="Quantumania">
+                    <p>Quantumania</p>
+                </div>
+                <div>
+                    <img src="icons/m2.jpg" alt="Fifth Road">
+                    <p>Fifth Road</p>
+                </div>
+                <div>
+                    <img src="icons/m3.jpg" alt="Top Gun Maverick">
+                    <p>Top Gun Maverick</p>
+                </div>
+            </div>
             <div class="register_page_disabled" id="id_register_page">
                 <div class="userinfo_1">
                     <div>
@@ -59,4 +81,5 @@
     </div>
     <script src="project.js"></script>
 </body>
+
 </html>

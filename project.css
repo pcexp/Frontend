@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -88,7 +90,6 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    
 }
 
 .sidebar img{
@@ -135,6 +136,24 @@
     cursor: pointer;
 }
 
+.sidebar textarea{
+    height: 160px;
+    width: 170px;
+    margin-top: 20px;
+    border-radius: 6px;
+    resize: none;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 6px gray;
+    padding: 8px;
+}
+
+.sidebar textarea:focus{
+    border-radius: 6px;
+    border: 1px solid gray;
+    outline: none;
+    box-shadow: 3px 3px 6px gray inset;
+}
+
 @keyframes extend_animation {
     from {background-color: white; border-radius: 20px;}
     to {background-color: rgb(0, 191, 191); border-radius: 0;}
@@ -156,9 +175,8 @@
 }
 
 .register_page_disabled{
-    background-color: gray;
-    height: 50%;
-    width: 50%;
+    height: 0;
+    width: 0;
     visibility: hidden;
 }
 
@@ -193,3 +211,35 @@
 .userinfo_1 select{
     width: 100%;
  }
+
+ .movies_page{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex: row;
+}
+
+.movies_page div{
+    margin: 16px;
+}
+
+.movies_page_disabled{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.movies_page img{
+    height: 180px;
+    width: 120px;
+    padding: 0;
+    margin: 0;
+}
+.movies_page p{
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
